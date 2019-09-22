@@ -1,0 +1,133 @@
+    *,
+    *:after,
+    *:before {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        transition: .5s ease-in-out;
+    }
+
+    ul {
+
+        list-style: none;
+        padding: 80px;
+        font-size: 54px;
+    }
+
+    li {
+
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 78pt;
+    }
+
+    h2 {
+        font-size: 65pt;
+    }
+
+    h3 {
+        font-size: 42pt;
+    }
+
+    body {
+        display: block;
+        max-width: 100%;
+        font-size: 30px!important;
+        color: #fff;
+    }
+
+    .uppercase {
+        text-transform: uppercase;
+    }
+
+    .red-bcg {
+        background-image: url(img/redfon.png);
+        max-width: 100%;
+    }
+
+    header,
+    .showcase,
+    .promo,
+    .moovie,
+    .top-tracks {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    header {
+        margin-bottom: 0 !important;
+        height: auto !important;
+        min-height: auto;
+        width: 100%;
+    }
+
+    .card-img-top p {
+
+        display: block;
+        background: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+    }
+
+    .card-img-top:hover {
+        background: url('img/kach.png') no-repeat center top;
+
+        margin: 0 auto;
+    }
+
+    .col-lg-2 {
+
+        max-width: 50%;
+    }
+
+    .col-md-auto {
+
+        width: 50%;
+    }
+
+    .btn-ticket {
+        color: #262313;
+        background-color: #fde332;
+        padding: 20px 90px 20px 45px;
+        border-radius: 40px;
+        background-image: url(img/icon-tickets.svg);
+        background-repeat: no-repeat;
+        background-position: 235px 20px;
+        background-size: 45px;
+    }
+
+    .btn-ticket:hover {
+        color: #262313;
+        background-color: #fde332;
+    }
+
+    .showcase {
+        margin-top: 50px;
+    }
+
+    .promo {
+        color: #333333;
+        padding: 60px 0 60px 0;
+    }
+
+    .moovie {
+        background-color: #111111;
+    }
+
+    .top-tracks {
+        background-image: url(img/fontoptrack.png);
+        min-height: 663px;
+        background-size: 100%;
+        height: 100%;
+    }
+
+    .tickets {
+        text-align: center;
+        background-image: url(img/fontickets.png);
+        background-repeat: no-repeat;
+        min-height: 663px;
+        background-size: 100%;
+        height: 100%;
+        font-weight: 600;
+    }

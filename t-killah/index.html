@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>T-killah</title>
+</head>
+
+<body>
+    <div id="section-page">
+        <div class="red-bcg">
+            <header>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="date" style="font-size:40pt;">23 <sup style="font-size:30pt;">марта</sup> <sup style="font-size:10pt;">начало в 20:00</sup></div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="logo"><img src="img/tele-club.png" alt=""></div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="logo"><img src="img/friday.png" alt=""></div>
+                    </div>
+                </div>
+            </header>
+            <div class="showcase">
+                <div class="row justify-content-md-center">
+                    <div class="col col-lg-2">
+                        <div>
+                            <span class="uppercase"> Большой сольный концерт</span>
+                            <span>  <img src="img/t-killah.png" alt=""></span>
+                            <span>В Екатеринбурге</span></div>
+                        <div class="btn-ticket-c"><a href="#" class="btn-ticket">Купить билет</a></div>
+                    </div>
+                    <div class="col-md-auto">
+                        <img src="img/manT.png" alt="T-killah">
+                    </div>
+                </div>
+            </div>
+            <div class="promo">
+                <div class="row">
+                    <div class="col" style="max-width: 25.2%;">
+                        <div class="card">
+                            <img class="card-img-top" src="img/kach.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Кач, драйв, танцы</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col" style="max-width: 34.3%;">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/moshc.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">Мощный звук</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="max-width: 54%;">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/Leg-hit.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">Легендарные хиты</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="max-width: 54%;">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/alive-v.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">Живое выступление</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="max-width: 34.3%;">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/chanal.png" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-text">Кто держит канал?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="moovie">
+            <iframe style="" width="1440" height="811" src="https://www.youtube.com/embed/kE1tDq3GnGw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="top-tracks">
+            <div class="row">
+                <div class="col">
+                    <h2> Топовые треки</h2>
+                    <ul>
+                        <li><img src="img/pause.png" alt=""> До талого</li>
+                        <li><img src="img/play.png" alt=""> Это нормально</li>
+                        <li><img src="img/play.png" alt=""> Барабан</li>
+                    </ul>
+                    <a href="#" class="btn-ticket">Купить билет</a>
+                </div>
+                <div class="col">
+                    <img src="img/dotalogo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="tickets">.
+            <h1> Билетов осталось: 1268</h1>
+            <h3> <span> "</span>Сегодня это можно себе позволить,
+                        <br>Чтобы было потом что вспомнить. <span> " </span></h3>
+            <a href="#" class="btn-ticket">Купить билет</a>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBAlw5uxOIe-brNjby3V0xpJNtj2CDxvIg",
+    authDomain: "t-killah.firebaseapp.com",
+    databaseURL: "https://t-killah.firebaseio.com",
+    projectId: "t-killah",
+    storageBucket: "",
+    messagingSenderId: "731242020494"
+  };
+  firebase.initializeApp(config);
+</script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
